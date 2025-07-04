@@ -1,5 +1,7 @@
 .container {
   padding: 0 2rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #e6fffa 100%);
+  min-height: 100vh;
 }
 
 .main {
@@ -10,6 +12,36 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.title {
+  margin: 0 0 1rem 0;
+  line-height: 1.15;
+  font-size: 3rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #718096;
+  margin: 0;
+  font-style: italic;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.1rem;
+  color: #667eea;
+  font-style: italic;
 }
 
 .footer {
